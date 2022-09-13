@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+}
+
+.timePassPara{
+    font-size: 72px;
+    color: red;
+}
+
+.buttonDabao{
+    padding: 20px;
+    border-radius: 25px;
+    background-color: black;
+    color: goldenrod;
+    font-size: 32px;
+    cursor: pointer;
+    box-shadow: 0 0 5px red;
+}
+
+button:active{
+    transform: translateY(2px);
+}
+
+.transform{
+    transition: width 3s;
+    transition: ease-in 4s;
+}
